@@ -4,6 +4,7 @@ import { searchHistoryAtom } from '@/store';
 import { Button, ListGroup } from 'react-bootstrap';
 import styles from '@/styles/History.module.css';
 import { removeFromHistory } from '@/lib/userData';
+import Image from 'next/image';
 
 export default function History() {
     const [searchHistory, setSearchHistory] = useAtom(searchHistoryAtom);
@@ -31,13 +32,13 @@ export default function History() {
     return (
         <>
             <div className="mt-4">
-                <h1 className="mt-4 mb-4 text-white" style={{ textAlign: 'center' }}>Search History</h1> <hr />
+                <h1 className="mt-4 mb-4 text-white lightfont" style={{ textAlign: 'center' }}>Search History</h1> <hr />
                 {parsedHistory.length === 0 ? (
                     <span style={{ textAlign: 'center' }} className='text-white'> <br /><br /><br /><br /><br /> <br />
                         <p style={{ fontWeight: 'bold' }}>Nothing Here.</p>
                         <p>Try searching for some artwork.</p> <br />
                         <div>
-                            <img src="/undraw_no_data_re_kwbl.svg" alt="No History" width="50" height="50" />
+                            <Image src="/undraw_no_data_re_kwbl.svg" alt="No History" width="50" height="50" priority />
                         </div>
                     </span>
                 ) : (

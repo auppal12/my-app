@@ -35,7 +35,7 @@ export default function Login() {
     return (
         <>
 
-            <h1 className="mt-4 mb-4 text-white" style={{ textAlign: 'center' }}>Log In</h1>
+            <h1 className="mt-4 mb-4 text-white lightfont" style={{ textAlign: 'center' }}>Log In</h1>
 
             <hr />
             <br />

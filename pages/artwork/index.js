@@ -17,6 +17,7 @@ import { Row, Col, Pagination, Card } from 'react-bootstrap';
 import ArtworkCard from '../../components/ArtworkCard';
 import Error from 'next/error';
 import validObjectIDList from '@/public/data/validObjectIDList.json';
+import Image from 'next/image';
 
 const PER_PAGE = 12;
 
@@ -97,7 +98,7 @@ export default function Artwork() {
                         </Pagination>
                     </Col>
                     <Col className="d-flex justify-content-end align-items-center">
-                        <img src="/undraw_dog_c7i6.svg" alt="No History" width="70" height="70" />
+                        <Image src="/undraw_dog_c7i6.svg" alt="No History" width="70" height="70" priority />
                     </Col>
                 </Row>
             )}
