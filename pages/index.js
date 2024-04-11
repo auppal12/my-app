@@ -1,3 +1,14 @@
+/********************************************************************************* * 
+* * BTI425 – Assignment 6
+* * I declare that this assignment is my own work in accordance with Seneca's
+* Academic Integrity Policy:
+*
+* https://www.senecapolytechnic.ca/about/policies/academic-integrity-policy.html * 
+* Name: Amitoj Uppal     Student ID: 105186225       Date: 10th April, 2024
+*
+* Vercel App (Deployed) Link: https://explorart.vercel.app/ * 
+********************************************************************************/
+
 import { Row, Col } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
 

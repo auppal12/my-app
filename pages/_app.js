@@ -5,6 +5,7 @@ import Layout from '@/components/Layout';
 import '@/styles/globals.css';
 import RouteGuard from '@/components/RouteGuard';
 import { getToken } from '@/lib/authenticate';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function App({ Component, pageProps }) {
 
@@ -29,6 +30,7 @@ export default function App({ Component, pageProps }) {
         <SWRConfig value={{ fetcher }}>
           <Layout>
             <Component {...pageProps} />
+            <SpeedInsights />
           </Layout>
         </SWRConfig>
       </RouteGuard>
