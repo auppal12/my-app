@@ -17,14 +17,14 @@ export default function Home() {
         <Row className="mt-3">
           <Col md={6}>
             <p>
-              The Metropolitan Museum of Art, colloquially "The Met," is located in Central Park, NYC.
-              It is one of the world's largest and finest art museums.
-              The Met's mission is to collect, preserve, study, exhibit, and encourage appreciation
+              The Metropolitan Museum of Art, colloquially &quot;The Met,&quot; is located in Central Park, NYC.
+              It is one of the world&apos;s largest and finest art museums.
+              The Met&apos;s mission is to collect, preserve, study, exhibit, and encourage appreciation
               for works that collectively represent the broad spectrum of human achievement and creativity.
               After negotiations with the City of New York in 1871, the Met was granted the land between the East Park Drive, Fifth Avenue, and the 79th and 85th Street transverse roads in Central Park.
-              The first part of the Met to be built was a red-brick and stone "mausoleum" was designed by American architect Calvert Vaux and his collaborator Jacob Wrey Mould.
+              The first part of the Met to be built was a red-brick and stone &quot;mausoleum&quot; was designed by American architect Calvert Vaux and his collaborator Jacob Wrey Mould.
               The Fifth Avenue facade, Great Hall, and Grand Stairway were designed in the Beaux-Arts style by Richard Morris Hunt and his son, Richard Howland Hunt, in the late 1890s and early 1900s.
-              The firm of McKim, Mead & White completed the wings on the Fifth Avenue facade in 1910. The modernistic glass sides and rear of the museum are the work of Roche-Dinkeloo.
+              The firm of McKim, Mead &amp; White completed the wings on the Fifth Avenue facade in 1910. The modernistic glass sides and rear of the museum are the work of Roche-Dinkeloo.
             </p>
           </Col>
           <Col md={6}>
@@ -32,8 +32,8 @@ export default function Home() {
               The Met Fifth Avenue measures almost 1⁄4-mile (400 m) long and with more than 2 million square feet (190,000 m2) of floor space, more than 20 times the size of the original 1880 building.
               The museum building is an accretion of over 20 structures, most of which are not visible from the exterior. The City of New York owns the museum building and contributes utilities, heat, and some of the cost of guardianship.
               The Iris and B. Gerald Cantor Roof Garden is located on the roof near the southwestern corner of the museum.
-              The museum's main building was designated a city landmark by the New York City Landmarks Preservation Commission in 1967, and its interior was separately recognized by the Landmarks Preservation Commission in 1977.
-              The Met's main building was designated a National Historic Landmark in 1986, recognizing both its monumental architecture, and its importance as a cultural institution.
+              The museum&apos;s main building was designated a city landmark by the New York City Landmarks Preservation Commission in 1967, and its interior was separately recognized by the Landmarks Preservation Commission in 1977.
+              The Met&apos;s main building was designated a National Historic Landmark in 1986, recognizing both its monumental architecture, and its importance as a cultural institution.
               {' '}
               <a href="https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art" target="_blank" rel="noreferrer" style={{ fontWeight: "bold" }}>
                 Learn more about The Met
