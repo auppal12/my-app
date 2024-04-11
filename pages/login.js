@@ -1,4 +1,4 @@
-import { Card, Form, Alert, Button } from "react-bootstrap";
+import { Form, Alert, Button } from "react-bootstrap";
 import { useState } from 'react';
 import { authenticateUser } from '@/lib/authenticate';
 import { useRouter } from 'next/router';
