@@ -33,7 +33,7 @@ export default function Home() {
             height={0}
             sizes="100vw"
             style={{ width: '100%', height: '100%', aspectRatio: "auto" }}
-            priority
+            priority={true}
           />
         </div>
         <hr />
