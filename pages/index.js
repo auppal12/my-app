@@ -28,12 +28,13 @@ export default function Home() {
       <div className="text-white">
         <div style={{ textAlign: "center", overflow: "hidden", borderRadius: "10px" }}>
           <Image
+
             src="/Metropolitan_Museum_of_Art_-_panoramio.jpg"
             alt="Metropolitan Museum of Art"
             width={0}
             height={0}
             sizes="100vw"
-            style={{ width: '100%', height: 'auto' }}
+            style={{ width: '100%', height: 'auto', objectFit: "cover" }}
             priority={true}
           />
         </div>
