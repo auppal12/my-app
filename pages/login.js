@@ -39,7 +39,7 @@ export default function Login() {
 
             <hr />
             <br />
-            <div className="container-sm" style={{ width: 600 }}>
+            <div className="container-sm">
                 <Form onSubmit={handleSubmit} className='text-white'>
                     <Form.Group className="mb-3">
                         <Form.Label>Username:</Form.Label><Form.Control type="text" value={username} id="userName" name="userName" onChange={e => setUsername(e.target.value)} required />

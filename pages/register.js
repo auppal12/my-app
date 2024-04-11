@@ -30,7 +30,7 @@ export default function Register() {
 
             <hr />
             <br />
-            <div className="container-sm" style={{ width: 600 }}>
+            <div className="container-sm">
                 <form onSubmit={handleSubmit} className='text-white'>
                     <Form.Group className="mb-3">
                         <Form.Label>Username:</Form.Label>
