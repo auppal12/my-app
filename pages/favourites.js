@@ -11,7 +11,7 @@ export default function Favourites() {
     return (
         <>
             <Container>
-                <h1 className="mt-4 mb-4 text-white lightfont" style={{ textAlign: 'center' }}>Favourites</h1>
+                <h1 className="mt-4 mb-4 text-white" style={{ textAlign: 'center' }}>Favourites</h1>
                 <hr />
                 {favouritesList.length === 0 ? (
                     <span style={{ textAlign: 'center' }} className='text-white'> <br /><br /><br /><br /><br /> <br />

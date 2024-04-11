@@ -31,7 +31,7 @@ export default function History() {
     return (
         <>
             <div className="mt-4">
-                <h1 className="mt-4 mb-4 text-white lightfont" style={{ textAlign: 'center' }}>Search History</h1> <hr />
+                <h1 className="mt-4 mb-4 text-white" style={{ textAlign: 'center' }}>Search History</h1> <hr />
                 {parsedHistory.length === 0 ? (
                     <span style={{ textAlign: 'center' }} className='text-white'> <br /><br /><br /><br /><br /> <br />
                         <p style={{ fontWeight: 'bold' }}>Nothing Here.</p>

@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
     <>
-      <h1 className="mt-4 mb-4 text-white lightfont" style={{ textAlign: 'center' }}>Welcome to the Art Gallery</h1>
+      <h1 className="mt-4 mb-4 text-white" style={{ textAlign: 'center' }}>Welcome to the Art Gallery</h1>
 
       <hr />
       <br />
@@ -32,7 +32,8 @@ export default function Home() {
             width={0}
             height={0}
             sizes="100vw"
-            style={{ width: '100%', height: 'auto' }}
+            style={{ width: '100%', height: '100%' }}
+            priority
           />
         </div>
         <hr />

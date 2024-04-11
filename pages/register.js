@@ -26,7 +26,7 @@ export default function Register() {
 
     return (
         <div>
-            <h1 className="mt-4 mb-4 text-white lightfont" style={{ textAlign: 'center' }}>Sign Up</h1>
+            <h1 className="mt-4 mb-4 text-white" style={{ textAlign: 'center' }}>Sign Up</h1>
 
             <hr />
             <br />
