@@ -11,15 +11,16 @@
 
 import { Row, Col } from "react-bootstrap";
 import Image from "next/image";
-import { useEffect } from "react";
+import Head from "next/head";
 
 export default function Home() {
-  useEffect(() => {
-    document.title = "Art Explorer";
-  }, []);
 
   return (
     <>
+      <Head>
+        <title>Art Explorer</title>
+        <meta name="description" content="Log in and search your favorite artworks from around the world" />
+      </Head>
       <h1 className="mt-4 mb-4 text-white lightfont" style={{ textAlign: 'center' }}>Welcome to the Art Gallery</h1>
 
       <hr />
