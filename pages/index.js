@@ -38,7 +38,7 @@ export default function Home() {
           />
         </div>
         <hr />
-        <Row className="mt-3">
+        <Row >
           <Col md={6}>
             <p>
               The Metropolitan Museum of Art, colloquially &quot;The Met&quot;, is located in Central Park, NYC.
