@@ -5,7 +5,7 @@ import { favouritesAtom, searchHistoryAtom } from '@/store';
 import { getFavourites, getHistory } from '@/lib/userData';
 import { isAuthenticated } from '@/lib/authenticate';
 
-const PUBLIC_PATHS = ['/', '/login', '/register'];
+const PUBLIC_PATHS = ['/', '/login', '/_error', '/register'];
 
 export default function RouteGuard(props) {
     const router = useRouter();
