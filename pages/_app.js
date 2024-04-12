@@ -20,8 +20,12 @@ export default function App({ Component, pageProps }) {
   //   return res.json();
   // };
 
-  const fetcher = (url) => fetch(url, { headers: { Authorization: `JWT ${getToken()}` } }).then((res) => res.json());
-
+  const fetcher = async (url) => {
+    const response = await fetch(url, {
+      headers: { Authorization: `JWT ${getToken()}` }
+    });
+    return response.json();
+  };
   return (
     <>
       <RouteGuard>
