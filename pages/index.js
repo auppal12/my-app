@@ -60,7 +60,7 @@ export default function Home() {
               The museum&apos;s main building was designated a city landmark by the New York City Landmarks Preservation Commission in 1967, and its interior was separately recognized by the Landmarks Preservation Commission in 1977.
               The Met&apos;s main building was designated a National Historic Landmark in 1986, recognizing both its monumental architecture, and its importance as a cultural institution.
               {' '}
-              <a href="https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art" target="_blank" rel="noreferrer" style={{ fontWeight: "bold" }}>
+              <a href="https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art" target="_blank" rel="preconnect" style={{ fontWeight: "bold" }}>
                 Learn more about The Met
               </a>
             </p>
