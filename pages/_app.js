@@ -20,8 +20,8 @@ export default function App({ Component, pageProps }) {
   //   return res.json();
   // };
 
-  const fetcher = async (url) => {
-    const response = await fetch(url, {
+  const fetcher = (url) => {
+    const response = fetch(url, {
       headers: { Authorization: `JWT ${getToken()}` }
     });
     return response.json();
