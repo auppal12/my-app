@@ -29,7 +29,6 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <RouteGuard>
-
         <SWRConfig value={{ fetcher }}>
           <Layout>
             <Component {...pageProps} />
