@@ -19,7 +19,8 @@ body {
 }
 
 .lightfont {
-    font-family: fantasy;
+    /* font-family: fantasy; */
+    font-family: Impact;
     font-weight: lighter;
 }
 
