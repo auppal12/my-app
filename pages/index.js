@@ -20,6 +20,7 @@ export default function Home() {
       <Head>
         <title>Art Explorer</title>
         <meta name="description" content="Log in and search your favorite artworks from around the world" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
       </Head>
       <h1 className="mt-4 mb-4 text-white lightfont" style={{ textAlign: 'center' }}>Welcome to the Art Gallery</h1>
 
@@ -60,7 +61,7 @@ export default function Home() {
               The museum&apos;s main building was designated a city landmark by the New York City Landmarks Preservation Commission in 1967, and its interior was separately recognized by the Landmarks Preservation Commission in 1977.
               The Met&apos;s main building was designated a National Historic Landmark in 1986, recognizing both its monumental architecture, and its importance as a cultural institution.
               {' '}
-              <a href="https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art" target="_blank" rel="preconnect" style={{ fontWeight: "bold" }}>
+              <a href="https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art" target="_blank" rel="noreferrer" style={{ fontWeight: "bold" }}>
                 Learn more about The Met
               </a>
             </p>
