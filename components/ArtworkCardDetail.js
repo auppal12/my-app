@@ -50,7 +50,7 @@ export default function ArtworkCardDetail({ objectID }) {
         <>
             <hr />
             <Card border="dark" className='bg-dark text-white mb-3'>
-                {primaryImage && <Card.Img variant="top" src={primaryImage} />}
+                {primaryImage && <Card.Img variant="top" src={primaryImage} alt='artworkdetail' />}
                 <Card.Body>
                     <Card.Title>{title || 'N/A'}</Card.Title>
                     <Card.Text>

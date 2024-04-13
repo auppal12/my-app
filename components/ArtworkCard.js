@@ -28,7 +28,7 @@ export default function ArtworkCard({ objectID }) {
     return (
         <>
             <Card border="dark" className='bg-dark text-white mb-3 nice'>
-                <Card.Img variant="top" src={image_url} />
+                <Card.Img variant="top" src={image_url} alt='artwork' />
                 <Card.Body>
                     <Card.Title>{title || 'N/A'}</Card.Title>
                     <Card.Text>
