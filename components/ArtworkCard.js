@@ -27,6 +27,7 @@ export default function ArtworkCard({ objectID }) {
 
     return (
         <>
+            <br /> <br />
             <Card border="dark" className='bg-dark text-white mb-3 nice'>
                 <Card.Img variant="top" src={image_url} alt='artwork' />
                 <Card.Body>
@@ -38,7 +39,7 @@ export default function ArtworkCard({ objectID }) {
                     </Card.Text>
                     <Link href={`/artwork/${objectID}`} passHref legacyBehavior>
                         <Button as="a" variant="primary" >
-                            ID: {objectID}
+                            ID: {objectID} / Details
                         </Button>
                     </Link>
                 </Card.Body>

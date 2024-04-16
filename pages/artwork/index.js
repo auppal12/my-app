@@ -13,7 +13,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import useSWR from 'swr';
-import { Row, Col, Pagination, Card } from 'react-bootstrap';
+import { Row, Col, Pagination, Card, Container } from 'react-bootstrap';
 import ArtworkCard from '../../components/ArtworkCard';
 import Error from 'next/error';
 import validObjectIDList from '@/public/data/validObjectIDList.json';
@@ -79,12 +79,17 @@ export default function Artwork() {
                     ))
                 ) : (
                     <Col>
-                        <Card border="dark" className='bg-dark text-white mb-3'>
-                            <Card.Body>
-                                <h4>Nothing Here</h4>
-                                Try searching for something else.
-                            </Card.Body>
-                        </Card>
+                        <Container>
+                            <br />
+                            <hr />
+                            <span style={{ textAlign: 'center' }} className='text-white'> <br /><br /><br /><br /><br /> <br />
+                                <p style={{ fontWeight: 'bold' }}>Sorry, what you are looking for is unavailable.</p>
+                                <p>Try searching some other Artwork.</p>
+                                <div>
+                                    <Image src="/undraw_no_data_re_kwbl.svg" alt="No History" width="40" height="50" priority />
+                                </div>
+                            </span>
+                        </Container >
                     </Col>
                 )}
             </Row>
