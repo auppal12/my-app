@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@vercel/speed-insights": "^1.0.14",
+    "@vercel/speed-insights": "^1.2.0",
     "bootstrap": "^5.3.3",
     "bootswatch": "^5.3.3",
     "jotai": "^2.12.1",
